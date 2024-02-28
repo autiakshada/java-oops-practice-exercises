@@ -18,10 +18,47 @@ For the `Circle` class:
 
 Implement the classes and interface with appropriate method implementations.
 */
+import java.util.Scanner;
+interface shape
+{
+	void calculateArea();
+	void calculatePerimeter();
+
+}
+class Rectangles implements shape 
+{
+	public void calculateArea()
+	{
+		System.out.println("Calculate Area of rectangle: ");
+	}
+	public  void calculatePerimeter()
+	{
+		System.out.println("Calculate perimeter of rectangle ");
+	}
+
+}
+class Circle implements shape
+{
+	public void calculateArea()
+	{
+		System.out.println("Calculate Area of circle: ");
+	}
+	public  void calculatePerimeter()
+	{
+		System.out.println("Calculate circumference of circle: ");
+	}
+}
 class main
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("Hello World!");
+		Scanner sc= new Scanner(System.in);
+		shape rect= new Rectangles();
+		rect.calculateArea();
+		rect.calculatePerimeter();
+		System.out.println("===============");
+		shape ref=new Circle();
+		ref.calculateArea();
+		ref.calculatePerimeter();
 	}
 }
