@@ -22,6 +22,7 @@ Golden
 
 Sample Output-
 Mammal:Species:Lion,Age:5,Fur Color:Golden
+
 */
 
 import java.util.Scanner;
