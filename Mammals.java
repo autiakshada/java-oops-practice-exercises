@@ -1,6 +1,6 @@
 /*Write Java code to Design the classes with the following specifications:
 Animal class: Represents generic animal
-Attributes: species,age
+Attributes: species,age(private)
 Methods :getter and setter for attributes, toString() method to display generic 
 animal information.
 
@@ -22,7 +22,6 @@ Golden
 
 Sample Output-
 Mammal:Species:Lion,Age:5,Fur Color:Golden
-
 */
 
 import java.util.Scanner;
@@ -74,7 +73,7 @@ class Mammal extends Animal
         super(species, age);
         this.furColor = furColor;
     }
-	// getter methid to get the private data
+	// getter method to get the private data
     public String getFurColor() 
 	{
         return furColor;

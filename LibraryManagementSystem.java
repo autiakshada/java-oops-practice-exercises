@@ -58,7 +58,7 @@ abstract class LibraryItem
     // Abstract method
     public abstract void displayDetails();
 
-    // Getters and setters
+    // Getters and setters method to get and set/Modify the private data 
     public String getTitle() 
 	{
         return title;
