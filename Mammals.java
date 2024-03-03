@@ -99,6 +99,7 @@ class Mammals
         System.out.println("Enter species of mammal:");
         String species = sc.nextLine();
 
+
         System.out.println("Enter age of mammal:");
         int age = sc.nextInt();
 
